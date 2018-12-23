@@ -30,7 +30,7 @@ sudo reboot
 ```
 
 
-then use telent or ssh on your vu+ reciver and execute this
+then use telnt or ssh on your vu+ receiver and execute this
 
 ```
 echo 'sleep 30' >/etc/init.d/pilcd.sh
