@@ -27,7 +27,14 @@ bevor
 ```
 exit 0
 ```
-then reboot the pi
+save with strg+o and enter
+exit with strg+x
+
+check bevor reboot your ip ist right
+```
+sudo nano /home/pi/pi_for_lcd4linux/lcd4linux_config.sh
+```
+wenn right then reboot the pi
 ```
 sudo reboot
 ```
@@ -52,7 +59,7 @@ sudo reboot
 ```
 
 
-## How Edit my Server and sensor config
+## How Edit my lcd4linux config
 ```
 sudo nano /home/pi/pi_for_lcd4linux/lcd4linux_config.sh
 ```
