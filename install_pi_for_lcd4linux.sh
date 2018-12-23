@@ -15,7 +15,7 @@ echo -e "\n\n========= creat lcd4linux_config.sh ==========="
 sleep 1
 echo "#######lcd4linux Config#########" > lcd4linux_config.sh
 
-echo "ip="http://$ip/lcd4linux"" >> lcd4linux_config.sh
+echo "ip="$ip"" >> lcd4linux_config.sh
 
 echo "#######Config End#########" >> lcd4linux_config.sh
 sleep 1
