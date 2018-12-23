@@ -25,6 +25,7 @@ chmod 755 lcd4linux_config
 
 echo -e "\n\n========= installation autostart ==========="
 
+crontab -e
 crontab -u pi -l | grep -v 'sh /home/pi/pi_for_lcd4linux/lcd4linux.sh &'  | crontab -u pi -
 sleep 1
 (crontab -u pi -l ; echo "@reboot sh /home/pi_for_lcd4linux/lcd4linux.sh &") | crontab -u pi -
