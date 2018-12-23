@@ -20,6 +20,6 @@ echo "ip="http://$ip/lcd4linux"" >> lcd4linux_config.sh
 echo "#######Config End#########" >> lcd4linux_config.sh
 sleep 1
 chmod 755 lcd4linux.sh
-chmod 755 lcd4linux_config
+chmod 755 lcd4linux_config.sh
 
 exit 1
