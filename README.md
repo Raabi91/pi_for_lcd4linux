@@ -1,6 +1,16 @@
 # Lcd4linux Lcd on Raspberry pi
 
 ## Install:
+first install crontab an make a crontab for user pi
+```
+sudo apt-get install cron
+crontab -e
+```
+save the crontab with strg+o
+then exit with strg+x
+
+after then install lcd4linux Script
+
 ```
 git clone https://github.com/Raabi91/pi_for_lcd4linux
 cd pi_for_lcd4linux
