@@ -1,4 +1,7 @@
-url="http://192.168.102.11/lcd4linux"
+#!/bin/sh
+
+NAMENDATEI=lcd4linux_config.sh
+. /home/pi/pi_for_lcd4linux/$NAMENDATEI
 
 
 while true
@@ -10,5 +13,5 @@ else
   sudo shutdown -h now
 fi
 
-sleep 0.5
+sleep 1
 done
