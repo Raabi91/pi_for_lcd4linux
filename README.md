@@ -17,14 +17,16 @@ receiver Ip --> Your Ip form your vu+ receiver with lcd4linux
 
 then we need a autostart for the script use
 ```
-sudo apt install cron
-crontab -e
+sudo nano /etc/rc.local
 ```
-and put this on the end
+and put this
 ```
-@reboot sh /home/pi_for_lcd4linux/lcd4linux.sh &
+sh /home/pi/pi_for_lcd4linux/lcd4linux.sh &
 ```
-
+bevor
+```
+exit 0
+```
 then reboot the pi
 ```
 sudo reboot
