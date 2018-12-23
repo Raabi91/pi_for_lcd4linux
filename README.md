@@ -6,7 +6,8 @@ first install crontab an make a crontab for user pi
 sudo apt-get install cron
 crontab -e
 ```
-save the crontab with strg+o
+save the crontab with strg+o and enter
+
 then exit with strg+x
 
 after then install lcd4linux Script
