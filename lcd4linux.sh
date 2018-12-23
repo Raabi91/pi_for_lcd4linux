@@ -5,6 +5,8 @@ NAMENDATEI=lcd4linux_config.sh
 
 url=http://$ip/lcd4linux
 
+sleep 600
+
 while true
 do
 
