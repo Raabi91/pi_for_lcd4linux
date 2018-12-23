@@ -17,6 +17,7 @@ receiver Ip --> Your Ip form your vu+ receiver with lcd4linux
 
 then we need a autostart for the script use
 ```
+sudo apt install cron
 crontab -e
 ```
 and put this on the end
