@@ -1,16 +1,6 @@
 # Lcd4linux Lcd on Raspberry pi
 
 ## Install:
-first install crontab an make a crontab for user pi
-```
-sudo apt-get install cron
-crontab -e
-```
-save the crontab with strg+o and enter
-
-then exit with strg+x
-
-after then install lcd4linux Script
 
 ```
 git clone https://github.com/Raabi91/pi_for_lcd4linux
@@ -24,13 +14,24 @@ Input Your Settings in putty Wenn you will ask:
 
 receiver Ip --> Your Ip form your vu+ receiver with lcd4linux
 
+
+then we need a autostart for the script use
+```
+sudo apt install cron
+crontab -e
+```
+and put this on the end
+```
+@reboot sh /home/pi_for_lcd4linux/lcd4linux.sh &
+```
+
 then reboot the pi
 ```
 sudo reboot
 ```
 
 
-then use telnt or ssh on your vu+ receiver and execute this
+then use telnet or ssh on your vu+ receiver and execute this
 
 ```
 echo 'sleep 30' >/etc/init.d/pilcd.sh
