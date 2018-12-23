@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get install cron
 
 echo -e "\n\n========= Pi for Lcd4linux - Installation Script ==========="
 echo -e "\n\n========= pleas input your settings ==========="
