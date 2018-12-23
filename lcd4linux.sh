@@ -3,6 +3,7 @@
 NAMENDATEI=lcd4linux_config.sh
 . /home/pi/pi_for_lcd4linux/$NAMENDATEI
 
+url=http://$ip/lcd4linux
 
 while true
 do
