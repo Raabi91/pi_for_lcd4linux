@@ -43,9 +43,10 @@ sudo reboot
 then use telnet or ssh on your vu+ receiver and execute this
 
 ```
-echo 'sleep 20' >/etc/init.d/pilcd.sh
+echo 'sleep 30' >/etc/init.d/pilcd.sh
 chmod 755 /etc/init.d/pilcd.sh
-ln -s /etc/init.d/pilcd.sh /etc/rc0.d/S20pilcd.sh
+ln -s /etc/init.d/pilcd.sh /etc/rc0.d/K85pilcd.sh
+ln -s /etc/init.d/pilcd.sh /etc/rc6.d/K75pilcd.sh
 ```
 
 that will delay the shutdown of the receiver
